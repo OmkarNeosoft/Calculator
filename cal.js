@@ -1,8 +1,18 @@
-function clearScreen() {
-    document.getElementById("result").value = "";
-  }
-  function number(value) {
-    let res = document.getElementById("result");
+function clearScreen() 
+{
+    document.getElementById("answer").value = "";
+}
+  
+ function display(input) 
+ {
+    document.getElementById("answer").value += input;
+   }
 
-    res.value += value;
-  }
+function equal()
+{
+    var res=document.getElementById("answer").value;
+    var temp=eval(res);
+    document.getElementById("answer").value=temp;
+   
+    document.getElementById("his").value+=`${res}=${temp}`
+}

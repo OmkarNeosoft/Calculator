@@ -1,19 +1,25 @@
-
-  .wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-  }
-  input {
-    padding: 30px;
-    color:red;
-    border: 2px solid black;
-
-  }
-  #result{
-      color: blueviolet;
-      width: 158px;
-  }
-
+table{
+  height: 400px;
+  width: 300px;
+  background-color: #ffff;
+}
+#tab{
+  width: 300px;
+  height: 100px;
+ margin-top: 5%;
+}
+input[type=text] {
+  background-color: white;
+  height: 80px;
+  width: 300px;
+  background-color: rgb(160, 160, 160);
+  color:black;
+  border:3px solid;
+}
+#his{
+  border-radius: 30px;
+}
+#answer{
+  border-radius: 30px;
+}
 
